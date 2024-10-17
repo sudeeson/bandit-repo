@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # #app.py added
 # import subprocess
 # import hashlib
@@ -28,3 +29,16 @@
 # 6. Insecure random number generation
 # def insecure_random():
 #     return random.random()  # Not cryptographically secure for sensitive data
+=======
+
+# Function to reverse a string
+def reverse_string(s):
+    return s[::-1]
+
+# Example usage
+original_string = "Python"
+reversed_string = reverse_string(original_string)
+
+print(f"The original string is: {original_string}")
+print(f"The reversed string is: {reversed_string}")
+>>>>>>> feature
