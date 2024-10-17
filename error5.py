@@ -1,12 +1,7 @@
-# # Function to check if a number is even or odd
-# def check_even_odd(number):
-#     if number % 2 == 0:
-#         print(f"{number} is even")
-#     else:
-#         print(f"{number} is odd")
+# This code will raise a ZeroDivisionError
+def divide_numbers(a, b):
+    return a / b
 
-# # Input from user
-# num = int(input("Enter a number: "))
-
-# # Calling the function
-# check_even_odd(num)
+# Calling the function with b = 0 will cause a division by zero error
+result = divide_numbers(10, 0)
+print(f"The result is: {result}")
